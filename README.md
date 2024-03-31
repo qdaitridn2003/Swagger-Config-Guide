@@ -260,7 +260,7 @@
 ```
 // FOR DEFAULT
 "requestBody": {
-    "description" : "<description>",
+    "description" : "<description>", (optional)
     "required": <true | false>, (optional)
     "content": {
         "application/json": {
@@ -280,7 +280,7 @@
 
 // FOR FILE
 "requestBody": {
-    "description" : "<description>",
+    "description" : "<description>", (optional)
     "required": <true | false>, (optional)
     "content": {
         "multipart/form-data": {
@@ -299,7 +299,7 @@
 
 // FOR BOTH OF THEM
 "requestBody": {
-    "description" : "<description>",
+    "description" : "<description>", (optional)
     "required": <true | false>, (optional)
     "content": {
         "multipart/form-data": {
